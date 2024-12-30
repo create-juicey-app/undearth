@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.juiceydev.undearth.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "undearth.refmap.json",
+  "mixins": [
+    "DimensionTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
